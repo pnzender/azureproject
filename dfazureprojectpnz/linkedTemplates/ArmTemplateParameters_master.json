@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfazureprojectpnz"
+		},
+		"azure_sql_link_password": {
+			"value": ""
+		},
+		"datalake_link_accountKey": {
+			"value": ""
+		},
+		"azure_sql_link_properties_typeProperties_server": {
+			"value": "azureprojectserverpnz.database.windows.net"
+		},
+		"azure_sql_link_properties_typeProperties_database": {
+			"value": "azureprojectdbpnz"
+		},
+		"azure_sql_link_properties_typeProperties_userName": {
+			"value": "adminpnz"
+		},
+		"datalake_link_properties_typeProperties_url": {
+			"value": "https://storageazureprojectpnz.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
